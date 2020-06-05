@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', 'ariel', sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: #fff;
+    
+}
+
+section {
+    background-image: url(img/Layer\ 6.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    letter-spacing: 20px;
+
+}
+
+/* .photo {
+    position: absolute;
+} */
+
+.cycle-man {
+    height: 60vh;
+    position: relative;
+    top: 40%;
+}
+
+.girl-pose {
+    height: 60vh;
+}
+
+.circle {
+    height: 40vh;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.section-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
